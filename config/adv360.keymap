@@ -55,21 +55,21 @@
 
         colemak {
             bindings = <
-&kp TILDE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                                                     &trans     &kp N6  &kp N7  &kp N8     &kp N9   &kp N0         &kp EQUAL
-&kp TAB    &kp Q   &kp W   &kp F   &kp P   &kp B   &trans                                                                     &trans     &kp J   &kp L   &kp U      &kp Y    &kp SEMICOLON  &kp BSLH
-&kp ESC    &kp A   &kp R   &kp S   &kp T   &kp G   &to 0          &kp LCTRL   &kp LEFT_ALT        &kp RIGHT_ALT    &kp RCTRL  &to 0      &kp M   &kp N   &kp E      &kp I    &kp O          &kp SQT
-&sk LSHFT  &kp Z   &kp X   &kp C   &kp D   &kp V                              &kp LEFT_SHIFT      &kp RIGHT_SHIFT                        &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH       &sk RSHFT
-&mo 3      &trans  &tog 2  &mo 2   &mo 1           &kp BACKSPACE  &kp DELETE  &kp LEFT_GUI        &kp RIGHT_GUI    &kp ENTER  &kp SPACE          &mo 1   &mo 2      &tog 2   &trans         &mo 3
+&kp TILDE  &kp N1  &kp N2  &kp N3    &kp N4     &kp N5  &trans                                                                                   &trans         &kp N6  &kp N7        &kp N8          &kp N9   &kp N0         &kp EQUAL
+&kp TAB    &kp Q   &kp W   &kp F     &kp P      &kp B   &trans                                                                                   &trans         &kp J   &kp L         &kp U           &kp Y    &kp SEMICOLON  &kp BSLH
+&kp ESC    &kp A   &kp R   &kp S     &kp T      &kp G   &kp BACKSPACE  &kp LCTRL         &kp LEFT_ALT        &kp RIGHT_ALT    &kp RCTRL          &kp BACKSPACE  &kp M   &kp N         &kp E           &kp I    &kp O          &kp SQT
+&sk LSHFT  &kp Z   &kp X   &kp C     &kp D      &kp V                                    &kp LEFT_SHIFT      &kp RIGHT_SHIFT                                    &kp K   &kp H         &kp COMMA       &kp DOT  &kp FSLH       &sk RSHFT
+&mo 3      &trans  &trans  &kp LEFT  &kp RIGHT          &lt 1 ENTER    &lt 2 LEFT_SHIFT  &kp LEFT_GUI        &kp RIGHT_GUI    &lt 2 RIGHT_SHIFT  &lt 1 SPACE            &kp UP_ARROW  &kp DOWN_ARROW  &trans   &trans         &mo 3
             >;
         };
 
         symbol {
             bindings = <
-&trans  &trans             &trans          &trans                &trans                 &trans           &trans                                      &trans  &trans      &trans         &trans        &trans          &trans       &trans
-&trans  &kp LBKT           &kp RBKT        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &trans                                      &trans  &kp PIPE    &kp AMPERSAND  &kp HASH      &kp TILDE       &kp GRAVE    &trans
-&trans  &kp SEMICOLON      &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &trans  &trans  &trans      &trans  &trans  &trans  &kp DOLLAR  &kp EQUAL      &kp COLON     &kp UNDERSCORE  &kp SQT      &trans
-&trans  &kp DOUBLE_QUOTES  &kp LESS_THAN   &kp GREATER_THAN      &kp MINUS              &kp FSLH                         &trans      &trans                  &kp BSLH    &kp PLUS       &kp ASTERISK  &kp QUESTION    &kp PERCENT  &trans
-&trans  &trans             &trans          &trans                &trans                                  &trans  &trans  &trans      &trans  &trans  &trans              &trans         &trans        &trans          &trans       &trans
+&trans  &trans         &trans      &trans        &trans       &trans         &trans                                      &trans  &trans         &trans         &trans        &trans        &trans         &trans
+&trans  &kp SQT        &kp LS(LT)  &kp LS(GT)    &kp LS(DQT)  &kp DOT        &trans                                      &trans  &kp LS(AMPS)   &kp SEMI       &kp LBKT      &kp RBKT      &kp LS(PRCNT)  &trans
+&trans  &kp LS(EXCL)   &kp MINUS   &kp LS(PLUS)  &kp EQUAL    &kp LS(POUND)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(PIPE)   &kp LS(COLON)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(QMARK)  &trans
+&trans  &kp LS(CARET)  &kp FSLH    &kp LS(STAR)  &kp BSLH     &kp DOT                        &trans      &trans                  &kp LS(TILDE)  &kp LS(DLLR)   &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(AT)     &trans
+&trans  &trans         &trans      &trans        &trans                      &trans  &trans  &trans      &trans  &trans  &trans                 &trans         &trans        &trans        &trans         &trans
             >;
         };
 
