@@ -57,11 +57,11 @@
 
         colemak {
             bindings = <
-&kp TILDE  &kp N1  &kp N2  &kp N3    &kp N4     &kp N5  &trans                                                                                   &trans         &kp N6  &kp N7        &kp N8          &kp N9   &kp N0         &kp EQUAL
-&kp TAB    &kp Q   &kp W   &kp F     &kp P      &kp B   &kp DEL                                                                                  &kp DEL        &kp J   &kp L         &kp U           &kp Y    &kp SEMICOLON  &kp BSLH
-&kp ESC    &kp A   &kp R   &kp S     &kp T      &kp G   &kp BACKSPACE  &kp LCTRL         &kp LEFT_ALT        &kp RIGHT_ALT    &kp RCTRL          &kp BACKSPACE  &kp M   &kp N         &kp E           &kp I    &kp O          &kp SQT
-&sk LSHFT  &kp Z   &kp X   &kp C     &kp D      &kp V                                    &kp LEFT_SHIFT      &kp RIGHT_SHIFT                                    &kp K   &kp H         &kp COMMA       &kp DOT  &kp FSLH       &sk RSHFT
-&mo 3      &trans  &trans  &kp LEFT  &kp RIGHT          &lt 1 ENTER    &lt 2 LEFT_SHIFT  &kp LEFT_GUI        &kp RIGHT_GUI    &lt 2 RIGHT_SHIFT  &lt 1 SPACE            &kp UP_ARROW  &kp DOWN_ARROW  &trans   &trans         &mo 3
+&kp TILDE  &kp N1  &kp N2  &kp N3    &kp N4     &kp N5  &trans                                                                           &trans       &kp N6  &kp N7        &kp N8          &kp N9   &kp N0         &kp EQUAL
+&kp TAB    &kp Q   &kp W   &kp F     &kp P      &kp B   &mo 1                                                                            &mo 1        &kp J   &kp L         &kp U           &kp Y    &kp SEMICOLON  &kp BSLH
+&kp ESC    &kp A   &kp R   &kp S     &kp T      &kp G   &mo 2            &kp LCTRL     &kp LEFT_ALT        &kp RIGHT_ALT    &kp RCTRL    &mo 2        &kp M   &kp N         &kp E           &kp I    &kp O          &kp SQT
+&sk LSHFT  &kp Z   &kp X   &kp C     &kp D      &kp V                                  &kp LEFT_SHIFT      &kp RIGHT_SHIFT                            &kp K   &kp H         &kp COMMA       &kp DOT  &kp FSLH       &sk RSHFT
+&mo 3      &trans  &trans  &kp LEFT  &kp RIGHT          &lt 1 BACKSPACE  &lt 2 DELETE  &kp LEFT_GUI        &kp RIGHT_GUI    &lt 2 ENTER  &lt 1 SPACE          &kp UP_ARROW  &kp DOWN_ARROW  &trans   &trans         &mo 3
             >;
         };
 
