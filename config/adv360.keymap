@@ -58,9 +58,9 @@
         symbol {
             bindings = <
 &trans  &trans         &trans      &trans        &trans       &trans          &trans                                      &trans  &trans         &trans         &trans        &trans        &trans         &trans
-&trans  &kp SQT        &kp LS(LT)  &kp LS(GT)    &kp LS(DQT)  &kp DOT         &trans                                      &trans  &kp LS(AMPS)   &kp SEMI       &macro_brackets  &kp RBKT      &kp LS(PRCNT)  &trans
-&trans  &kp LS(EXCL)   &kp MINUS   &kp LS(PLUS)  &kp EQUAL    &kp LS(POUND)   &trans  &macro_dquotes  &macro_quotes  &macro_arrow  &macro_scope  &trans  &kp LS(PIPE)   &kp LS(COLON)  &macro_parens  &kp LS(RPAR)  &kp LS(QMARK)  &trans
-&trans  &kp LS(CARET)  &kp FSLH    &kp LS(STAR)  &kp BSLH     &kp UNDERSCORE                  &macro_eq   &macro_ne               &kp LS(TILDE)  &kp LS(DLLR)   &macro_braces  &kp LS(RBRC)  &kp LS(AT)     &trans
+&trans  &macro_quotes  &kp LS(LT)  &kp LS(GT)    &macro_dquotes  &kp DOT         &trans                                      &trans  &kp LS(AMPS)   &macro_ne       &kp LBKT         &kp RBKT      &kp LS(PRCNT)  &trans
+&trans  &kp LS(EXCL)   &kp MINUS   &kp LS(PLUS)  &kp EQUAL    &kp LS(POUND)   &trans  &macro_parens   &macro_brackets  &macro_braces  &macro_arrow  &trans  &kp LS(PIPE)   &kp LS(COLON)  &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(QMARK)  &trans
+&trans  &kp LS(CARET)  &kp FSLH    &kp LS(STAR)  &kp BSLH     &kp UNDERSCORE                  &macro_eq   &macro_scope            &kp LS(TILDE)  &kp LS(DLLR)   &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(AT)     &trans
 &trans  &trans         &trans      &trans        &trans                       &trans  &trans  &trans      &trans  &trans  &trans                 &trans         &trans        &trans        &trans         &trans
             >;
         };
